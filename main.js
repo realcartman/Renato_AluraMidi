@@ -8,7 +8,7 @@ function tocaSom (selectorAudio) {
 
    if (elemento != null) {
 
-      console.log(elemento.localName);
+      console.log(elemento.localName === 'audio');
 
       //elemento.play();
 
